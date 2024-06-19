@@ -1,0 +1,164 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #297991;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        .profile {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .profile h2 {
+            color: #333;
+        }
+        .profile p {
+            line-height: 1.6;
+         }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            display: none; /* Initially hide the profile section */
+        }
+        
+        #branding {
+            text-align: center; /* Center the name */
+            margin-bottom: 20px; /* Add margin for spacing */
+            margin-left: 10px;
+        }
+
+        /* Image code for the Profile */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  height: 198px;
+  margin: auto;
+  color: #333;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: rgb(8, 4, 4);
+  background-attachment: black;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(25, 18, 18);
+  background-color: #a1a6a4;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* Secondary header */
+
+.secondary-header {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    justify-content: space-between;
+}
+.secondary-header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.secondary-header nav ul li {
+    margin-left: 20px;
+}
+.secondary-header nav ul li a {
+    color: #040404;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.secondary-header nav ul li a:hover {
+    background-color: #6d6a6a;
+}
+
+/* footer */
+footer {
+    background-color: #297991;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #0779e4;
+}
